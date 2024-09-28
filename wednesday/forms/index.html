@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+ <!-- Import Google Font -->
+<style>
+    body {
+            font-family: 'segoe UI', Tahoma, Genva, Vedana, sans-serif;
+            background: linear-gradient(135deg, #ff860d, #3316b4);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+        }
+        header h1 {
+            font-family: 'Pacifico', cursive; 
+            font-size: 3rem; 
+            color: #ffebcd; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+        .registration h1 {
+            font-family: 'Roboto', sans-serif; 
+            font-size: 2rem; 
+            color: #ff7a59; 
+        }
+
+
+    .registration {
+        background-color: white;
+        width: 60%;
+        max-width:600px;
+        height: auto;
+        margin: 2rem auto;
+        text-align: left;
+        Padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .registration h1 {
+            color: #333;
+            font-size: 1.5rem;
+        } 
+
+        label {
+            display: block;
+            margin: 1rem 0 0.5rem 0;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form-control:focus {
+            border-color: #ff7a59; 
+            box-shadow: 0 0 8px rgba(255, 122, 89, 0.2);
+            outline: none;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background-color: #ba3311;
+            color: white;
+            font-family: 'Roboto', sans-serif; 
+            font-weight: bold; 
+            padding: 0.8rem 1.2rem;
+            border: none;
+            border-radius: 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+
+        .btn-primary:hover {
+            background:  linear-gradient(135deg, #ff5733, #e64a19);
+            transform: translateY(0);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary:active {
+            background: linear-gradient(135deg, #e64a19, #c63f16); 
+            transform: translateY(0); 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    
+</style>
+
+<body>
+    <header>
+        <h1>
+            ADDIKA
+        </h1>
+    </header>
+    <div class="registration">
+        <h1>Create an account</h1>
+        <hr>
+        <form>
+        <label>
+            User Name:
+            <input type="text" class= "form-control username" placeholder="Enter your username">
+        </label>
+        </label>
+        <br>
+       <label>
+            Password:
+            <input type="Password" class="form-control password" placeholder="Enter your Password">
+        </label>
+             </label>
+             <br>
+        <input type="submit" Value="Sign up" class="btn btn-primary register">
+        </form>
+
+
+    </div>
+    </body>
+    </html
